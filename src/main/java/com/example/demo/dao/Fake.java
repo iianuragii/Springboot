@@ -19,7 +19,7 @@ public class Fake implements PersonDao {
     }
 
     @Override
-    public List<Person> selectAllPeople(){
-        return DB
+    public List<Person> selectAllPeople() {
+        return DB;
     }
 }
